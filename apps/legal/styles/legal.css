@@ -1,0 +1,15 @@
+
+/*Title*/
+h2{
+  font-size: 300%;
+  text-align: center;
+  color: rgb(119,119,119);
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+p{
+    font-family: Trebuchet MS;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+}

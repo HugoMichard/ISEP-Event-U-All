@@ -1,0 +1,54 @@
+/*genreral conteneur*/
+.blocinscri form {
+    width:100%;
+    margin: auto;
+}
+
+/*Title*/
+h2{
+  font-size: 300%;
+  text-align: center;
+  color: rgb(119,119,119);
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+/*question answer*/
+section.QW{
+  height: 100%;
+}
+
+.question{
+    color: #cc0033;
+    font-weight:bold;
+    font-size: 200%;
+    border-bottom: 4px solid #cc0033;
+    border-radius: 2px;
+}
+
+.reponse{
+    color: rgb(70,70,70);
+    font-weight: bold;
+}
+
+/*conteneur button*/
+.conteneur{
+  text-align: right;
+  margin-bottom: 2%;
+
+}
+
+/*button time transition slower for nice effect*/
+.button{
+
+  padding: 1%;
+  background: #CC0033;
+  color : white;
+  transition: all 0.15s ease-in-out;
+  border-radius: 4px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+}
+
+.button:hover {
+  background: white;
+  color: #CC0033;
+}

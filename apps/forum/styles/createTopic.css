@@ -1,0 +1,90 @@
+#haut{
+    margin:auto;
+
+}
+ul .enteteforum
+{
+  margin-top:1em;
+  display: inline-block;
+  color : white;
+  width : 49%;
+  line-height: 3.5em;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-align: center;
+  background-color: #cc0033;
+}
+ul .enteteforum:hover
+{
+    color:#CC0033;
+    background-color: rgb(235,235,235);
+}
+.titre{
+  width:100%;
+  background-color: rgb(229,229,229);
+  padding:0px 10px 5px 10px ;
+}
+.titre h1{
+  color : #cc0033;
+  border-bottom: 1px solid #cc0033 ;
+}
+.description{
+  width:100%;
+  background-color: whitesmoke;
+  padding:0px 10px 5px 10px ;
+  margin-top: 0;
+}
+.description h1{
+  color : #cc0033;
+  border-bottom: 1px solid #cc0033 ;
+}
+.normeforum, #recherche{
+  margin:5%;
+  padding:2px;
+  text-decoration:none;
+  border:1px solid #cc0033;
+  border-radius: 3px;
+}
+#recherche{
+  background-color: white;
+}
+.normeforum
+{
+    color:white;
+    background-color: #cc0033;
+}
+.normeforum:hover{
+  background-color: white;
+  color:#cc0033;
+}
+
+#sujet,#commentaire
+{
+    width:100%;
+}
+.photoperso
+{
+    display:inline-block;
+    margin:15px;
+}
+
+.lier
+{
+    display:inline-block;
+    float:right;
+    margin:15px;
+}
+
+.valider
+{
+    margin-top: 15px;
+    margin-bottom: 10px;
+}
+.Annuler{
+  margin-top: 15px;
+  margin-bottom: 10px;
+}

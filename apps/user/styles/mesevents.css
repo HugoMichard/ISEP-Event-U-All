@@ -1,0 +1,133 @@
+div.search_h{
+    border: 2px #CC0033 solid;
+    background:rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    margin-top: 30px;
+    padding: 2px;
+
+}
+div.search_h form{
+    text-align: center;
+}
+div.search_h form input{
+    margin:0 10px
+}
+div.search_h form select{
+    margin:0 10px
+}
+
+section ul.events {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+section ul.events:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+section ul.events li {
+  position: relative;
+  float: left;
+  margin: 15px 0;
+  padding: 0 15px;
+  width: 33.33333333%;
+  height: 200px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  section ul.events li {
+    width: 50%;
+  }
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media only screen and (max-width: 768px) {
+  section ul.events li {
+    width: 100%;
+  }
+}
+
+section ul.events li:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+section ul.events li div.poster {
+  float: left;
+  width: 35%;
+  height: 200px;
+  overflow: hidden;
+}
+
+section ul.events li div.poster img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+section ul.events li div.caption {
+  float: left;
+  width: 65%;
+  height: 200px;
+  padding: 10px;
+  background: #CC0033;
+  color: white;
+}
+
+section ul.events li div.caption span.theme {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  background-color: #880000;
+  color: white;
+  margin-right: 5px;
+}
+
+section ul.events li div.caption h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 18px;
+}
+
+section ul.events li div.caption h3 a {
+  color: white;
+}
+
+.boutoncompte
+{
+  color:black;
+  border : 1px black solid;
+  box-shadow: 1px 1px 1px black;
+  margin-top: 5px;
+  display : inline-block;
+  margin-bottom:20px;
+  border: 0;
+  background: #CC0033;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+  padding: 2px 6px 3px;
+  margin-right: 10px;
+}
+
+.voirmesevents{
+    font-size: 20px;
+    color:#CC0033;
+    border-bottom: 1px solid #CC0033;
+}
+
+h1
+{
+   border-collapse:collapse;
+   text-align: center;
+   margin-bottom:3%;
+}

@@ -1,0 +1,147 @@
+div.search_h{
+    border: 2px #CC0033 solid;
+    background:rgba(255, 255, 255, 0.4);
+    border-radius: 5px;
+    padding: 2px;
+
+}
+div.search_h form{
+    text-align: center;
+}
+div.search_h form input{
+    margin:0 10px
+    height: 40px;
+}
+
+div.search_h form select{
+    margin:0 10px
+    height: 40px;
+}
+section ul{
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 0;
+}
+
+
+section ul li div p{
+padding-left: 5px;
+color:white;
+font-weight:bold;
+}
+
+.poster_evenement{
+  float: left;
+  display :block;
+  width:35%;
+  height: 200px;
+  overflow: hidden;
+}
+
+#prix_mini, #prix_max, #organisateur, #nbr_min_personnes, #nbr_max_personnes, #sponsors, #city, #zip_code
+{
+  margin : 5px;
+}
+
+.searchsection h1, .resultssearch h1{
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #CC0033;
+  margin: 15px;
+  margin-bottom: 0;
+  padding: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+#sendrecherche
+{
+  width: 150px;
+  border: 0;
+  background: #CC0033;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#nosearchresults *
+{
+  display : inline-block;
+  margin-left: 3px;
+}
+
+.clear
+{
+  clear:both;
+}
+
+.event_text .theme,.event_text .type
+{
+  display: inline-block;
+    margin-bottom: 5px;
+    padding: 5px 10px;
+    text-transform: uppercase;
+    background-color: #880000;
+    color: white;
+}
+
+.event_text .searchlien2
+{
+  color: white;
+}
+
+.event_text
+{
+  float: left;
+    width: 65%;
+    height: 200px;
+    padding: 10px;
+    background: #CC0033;
+    color: white;
+}
+
+.resultssearch ul
+{
+margin: 15px 0;
+margin-bottom: 20px;
+padding: 0 15px;
+height: 200px;
+}
+
+.resultssearch ul li
+{
+    float:left;
+    width : 33%;
+    margin: 15px 0;
+    padding: 0 15px;
+    height: 200px;
+}
+
+.poster_evenement_image
+{
+  float:left;
+  height: 200px;
+  color: #CC0033;
+
+}
+
+.searchlien1
+{
+  color: #CC0033;
+  text-decoration: none;
+  outline: none;
+  background-color: transparent;
+}
+
+.clearer
+{
+  clear:both;
+}
+
+@media(max-width:992px){
+  .resultssearch ul li{
+    width:90%;
+  }
+}

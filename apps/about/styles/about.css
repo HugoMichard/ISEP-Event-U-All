@@ -1,0 +1,24 @@
+div.app-about {
+  margin: 20px 0;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+div.app-about h2.title {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #CC0033;
+  margin: 15px;
+  margin-bottom: 0;
+  padding: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+div.app-about div.text {
+  margin: 15px;
+}
+
+div.app-about div.text img {
+  max-width: 100%;
+}

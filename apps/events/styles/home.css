@@ -1,0 +1,347 @@
+div.app-events-home {
+  margin: 20px 0;
+}
+
+div.app-events-home div.slideshow-container div.slideshow {
+  z-index: -60;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  height: 600px;
+  overflow: hidden;
+}
+
+div.app-events-home div.slideshow-container div.slideshow div.slidesjs-container {
+  height: 600px;
+}
+
+div.app-events-home div.slideshow-container div.slideshow div.slidesjs-container img {
+  height: 600px;
+  object-fit: cover;
+}
+
+div.app-events-home div.slideshow-container a.slidesjs-navigation {
+  position: absolute;
+  top: 375px;
+  font-size: 50px;
+  text-decoration: none;
+}
+
+div.app-events-home div.slideshow-container a.slidesjs-navigation.slidesjs-previous {
+  left: 10px;
+}
+
+div.app-events-home div.slideshow-container a.slidesjs-navigation.slidesjs-next {
+  right: 10px;
+}
+
+div.app-events-home div.slideshow-container div.slideshow-details {
+  position: absolute;
+  top: 200px;
+  left: 0; right: 0;
+  width: 100%;
+  height: 400px;
+}
+
+div.app-events-home div.slideshow-container div.slideshow-details div.slide {
+  display: none;
+}
+
+div.app-events-home div.slideshow-container div.slideshow-details div.slide a {
+  position: absolute;
+  top: 0; bottom: 0; left: 0; right: 0;
+}
+
+div.app-events-home div.slideshow-container div.slideshow-details div.slide a div.caption {
+  background-color: rgba(0, 0, 0, 0.7);
+  margin-top: 300px;
+  width: 100%;
+  height: 100px;
+  padding: 10px;
+}
+
+div.app-events-home div.slideshow-container div.slideshow-details div.slide a div.caption div.caption-wrapper {
+  margin: 0 auto;
+  width: 100%;
+}
+
+div.app-events-home div.slideshow-container div.slideshow-details div.slide a div.caption span.theme {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  background-color: #880000;
+  color: white;
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  div.app-events-home div.slideshow-container div.slideshow-details div.slide a div.caption div.caption-wrapper {
+    width: 1200px;
+  }
+}
+
+/* Medium devices (desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  div.app-events-home div.slideshow-container div.slideshow-details div.slide a div.caption div.caption-wrapper {
+    width: 970px;
+  }
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  div.app-events-home div.slideshow-container div.slideshow-details div.slide a div.caption div.caption-wrapper {
+    width: 750px;
+  }
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media only screen and (max-width: 768px) {
+  div.app-events-home div.slideshow-container div.slideshow {
+    height: 400px;
+  }
+
+  div.app-events-home div.slideshow-container div.slideshow div.slidesjs-container {
+    height: 400px;
+  }
+
+  div.app-events-home div.slideshow-container div.slideshow div.slidesjs-container img {
+    height: 400px;
+  }
+
+  div.app-events-home div.slideshow-container a.slidesjs-navigation {
+    top: 200px;
+  }
+
+  div.app-events-home div.slideshow-container div.slideshow-details {
+    height: 250px;
+    top: 150px;
+    left: 0; right: 0;
+  }
+
+  div.app-events-home div.slideshow-container div.slideshow-details div.slide a div.caption {
+    margin-top: 150px;
+    width: 100%;
+  }
+}
+
+div.app-events-home div.home-wrapper {
+  margin: 0 -15px;
+  margin-top: 415px;
+}
+
+div.app-events-home div.home-wrapper section {
+  margin-top: 20px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+}
+
+div.app-events-home div.home-wrapper section h2.title {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #CC0033;
+  margin: 15px;
+  margin-bottom: 0;
+  padding: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #EAEAEA;
+}
+
+div.app-events-home div.home-wrapper section h2.title a.create {
+  display: block;
+  float: right;
+  margin-top: -5px;
+  padding: 5px 10px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #CC0033;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: all ease-in-out 0.15s;
+}
+
+div.app-events-home div.home-wrapper section h2.title a.create:hover {
+  background-color: #880000;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media only screen and (max-width: 768px) {
+  div.app-events-home div.home-wrapper section h2.title a.create {
+    float: none;
+    width: 100%;
+    display: block;
+    margin-top: 10px;
+  }
+}
+
+div.app-events-home div.home-wrapper section div.search-form {
+  padding: 10px 0;
+  text-align: center;
+}
+
+div.app-events-home div.home-wrapper section div.search-form select, div.app-events-home div.home-wrapper div.search-form input {
+  height: 40px;
+}
+
+div.app-events-home div.home-wrapper section div.search-form select.large, div.app-events-home div.home-wrapper div.search-form input.large {
+  width: 200px;
+}
+
+div.app-events-home div.home-wrapper section div.search-form input[type="submit"] {
+  width: 150px;
+  border: 0;
+  background: #CC0033;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+div.app-events-home div.home-wrapper section div.search-form input[type="submit"]:hover {
+  background: #880000;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media only screen and (max-width: 768px) {
+  div.app-events-home div.home-wrapper section div.search-form select, div.app-events-home div.home-wrapper div.search-form input, div.app-events-home div.home-wrapper section div.search-form input[type="submit"] {
+    margin-top: 5px;
+    height: 40px;
+  }
+
+  div.app-events-home div.home-wrapper section div.search-form select.large, div.app-events-home div.home-wrapper div.search-form input.large, div.app-events-home div.home-wrapper section div.search-form input[type="submit"] {
+    width: 90%;
+  }
+}
+
+div.app-events-home div.home-wrapper section ul.events {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+div.app-events-home div.home-wrapper section ul.events p.no-events {
+  margin: 15px 0;
+  padding: 0 15px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media only screen and (max-width: 768px) {
+  div.app-events-home div.home-wrapper {
+    margin: 0;
+    margin-top: 265px;
+  }
+}
+
+div.app-events-home div.home-wrapper section ul.events:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+div.app-events-home div.home-wrapper section ul.events li {
+  position: relative;
+  float: left;
+  margin: 15px 0;
+  padding: 0 15px;
+  width: 33.33333333%;
+  height: 200px;
+}
+
+/* Small devices (tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  div.app-events-home div.home-wrapper section ul.events li {
+    width: 50%;
+  }
+}
+
+/* Extra small devices (phones, less than 768px) */
+@media only screen and (max-width: 768px) {
+  div.app-events-home div.home-wrapper section ul.events li {
+    width: 100%;
+  }
+}
+
+div.app-events-home div.home-wrapper section ul.events li:after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+div.app-events-home div.home-wrapper section ul.events li div.poster {
+  float: left;
+  width: 35%;
+  height: 200px;
+  overflow: hidden;
+}
+
+div.app-events-home div.home-wrapper section ul.events li div.poster img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+div.app-events-home div.home-wrapper section ul.events li div.caption {
+  float: left;
+  width: 65%;
+  height: 200px;
+  padding: 10px;
+  background: #CC0033;
+  color: white;
+}
+
+div.app-events-home div.home-wrapper section ul.events li div.caption span.theme {
+  display: inline-block;
+  margin-bottom: 5px;
+  padding: 5px 10px;
+  text-transform: uppercase;
+  background-color: #880000;
+  color: white;
+}
+
+div.app-events-home div.home-wrapper section ul.events li div.caption h3 {
+  margin: 0;
+  margin-bottom: 10px;
+  padding: 0;
+  font-size: 18px;
+}
+
+div.app-events-home div.home-wrapper section ul.events li div.caption h3 a {
+  color: white;
+}
+
+/* Pagination */
+
+div.app-events-home div.home-wrapper section .num_page {
+  list-style: none;
+  margin: 5px 10px;
+  padding: 0;
+}
+
+div.app-events-home div.home-wrapper section .num_page li {
+  display: inline-block;
+  margin: 5px;
+  border-radius: 4px;
+  background-color: white;
+}
+
+div.app-events-home div.home-wrapper section .num_page li a {
+  display: block;
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  color: #CC0033;
+}
+
+div.app-events-home div.home-wrapper section .num_page li a:hover {
+  color: #660000;
+}
+
+div.app-events-home div.home-wrapper section .num_page li.current {
+  padding: 6px 12px;
+  line-height: 1.42857143;
+  color: white;
+  background-color: #CC0033;
+}

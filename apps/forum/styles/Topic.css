@@ -1,0 +1,160 @@
+#haut{
+    margin: auto;
+    text-align: center;
+}
+#presentation li, #titre li{
+    margin-top:30px;
+    display: inline-block;
+    margin-left: 30px;
+    vertical-align: text-center;
+}
+#description li {
+  margin-top:30px;
+  display: inline-block;
+  margin-left: 30px;
+  vertical-align: top;
+}
+#description li h3{
+    color: #cc0033;
+}
+#haut{
+    margin:auto;
+}
+#haut div{
+
+}
+ul .enteteforum
+{
+  margin-top:1em;
+  display: inline-block;
+  color : white;
+  width : 30%;
+  line-height: 3.5em;
+  color: white;
+  text-decoration: none;
+  font-size: 1.2em;
+  -webkit-transition: all 0.3s ease;
+  -o-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  text-align: center;
+  background-color: #cc0033;
+}
+ul .enteteforum:hover
+{
+    color:#CC0033;
+    background-color: rgb(235,235,235);
+}
+#tire{
+    text-align: center;
+    width :100%;
+}
+#titre h1{
+color:#cc0033;
+border-bottom:1px solid #cc0033;
+}
+#presentation{
+    margin: auto;
+    text-align: center;
+
+}
+#presentation h3{
+  color:#cc0033;
+}
+table.messages {
+  margin-left: auto;
+  margin-right: auto;
+  width:90%;
+  
+}
+.first_ligne{
+  background-color: rgb(229,229,229);
+  margin-top: 5px;
+  text-align: center;
+  color:#cc0033;
+}
+.back1{
+  background-color: rgb(229,229,229);
+  margin-top: 5px;
+  text-align: center;
+}
+.back2{
+  background-color: whitesmoke;
+  margin-top: 5px;
+  text-align: center;
+}
+.utilisateur{
+    width:150px;
+    border-right: 1px solid #cc0033;
+
+}
+.date{
+    width:150px;
+    border-left: 1px solid #cc0033;
+}
+.avatartopic{
+  height:10em;
+  width:10em;
+  border-radius: 6em;
+  margin-left: 43em;
+  margin-top: 2em;
+}
+.avatar{
+  height:7em;
+  width:7em;
+  border-radius: 6em;
+}
+.avatarking{
+  height:7em;
+  width:7em;
+  border-radius: 6em;
+  border-right: 2px solid black;
+  border-left: 2px solid #cc0033;
+}
+.image{
+    border-right: 1px solid #cc0033;
+    width:150px;
+}
+#AJ_txt{
+    height:200px;
+    width:70%;
+    margin-left: 15%;
+    margin-right: auto;
+    margin-top: 20px;
+}
+#Envoi p{
+    margin-left:70%;
+}
+#num_page{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+#num_page td{
+    height:20px;
+    width:20px;
+    text-align: center;
+    font-size: 1.5em;
+    color:#cc0033;
+}
+
+#aj_com{
+  color: #cc0033;
+}
+.Envoyer{
+  margin-bottom: 10px;
+}
+.admin{
+  position:absolute;
+  top:15em;
+  font-size:1.5em;
+}
+.com{
+    padding:5px;
+}
+.suppressbutton{
+  border-right: 1px solid #cc0033;
+}
+tr.back2{
+    border-bottom: 1px solid rgb(235,235,235);
+}

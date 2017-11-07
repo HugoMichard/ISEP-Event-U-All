@@ -1,0 +1,211 @@
+h1
+{
+   border-collapse:collapse;
+   text-align: center;
+   margin-bottom:3%;
+}
+
+.photoperso
+{
+    box-shadow: 6px 6px 6px black ;
+    padding : 3px;
+    color : black;
+    text-decoration:none;
+    border: 1px solid black;
+}
+
+.photodemoi,.infoperso
+{
+    display:inline-block;
+    width :45%;
+}
+
+
+.Principal
+{
+    margin:10px
+}
+
+
+.nom, .prenom
+{
+    display:inline-block;
+}
+
+.prenom
+{
+    margin-left : 10%;
+}
+
+#divpage
+{
+    margin : 0 auto;
+    width : 80%;
+}
+
+.infoperso
+{
+    margin-left : 5%;
+   vertical-align: top;
+}
+
+
+
+#adressephysique, #adressemail, #telephone
+{
+    border-collapse:collapse;
+}
+
+
+#adressephysique,.codepostal,#adressemail,.ville,#telephone
+{
+    margin-bottom:20px;
+    display:inline-block;
+    margin-right: 10px;
+}
+
+#codepostal,#region
+{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+.moncommentaire
+{
+
+}
+
+#ville,.prenom,#codepostal,#region
+{
+  margin-top:10px;
+  margin-right :10px;
+}
+
+#interet
+{
+    display:inline-block;
+    margin-top:10px;
+}
+
+.infoperso2 label
+{
+    display:inline-block;
+    margin-bottom:10px;
+}
+
+#interet
+{
+    width:100%;
+}
+
+.affichage
+{
+    margin-top:3%;
+
+}
+
+.textlaissercommentaire
+{
+    width:100%;
+}
+
+.affichage input
+{
+    margin-left:8%;
+}
+
+
+.envoyer, .annuler
+{
+    width:20%;
+    display:inline-block;
+    margin-left : 15%;
+    margin-top:20px;
+}
+
+.boutoncompte
+{
+  padding: 10px 15px;
+  font-size: 16px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #CC0033;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: all ease-in-out 0.15s;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-right: 10px;
+}
+
+.meseventsettopics
+{
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+#divpage input,
+{
+  margin-bottom: 10px;
+}
+select
+{
+  margin-bottom: 10px;
+}
+
+.photoinconnu
+{
+  width:256px;
+  height:192px;
+}
+
+.moncommentaire
+{
+  border :1px solid black;
+  padding :5px;
+}
+
+#divpage .base
+{
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.datedenaissance .base
+{
+  margin-right: 5px;
+}
+
+.nom .base
+{
+  margin-right :5px;
+}
+
+@media (max-width: 992px)
+{
+  .infoperso {
+    width:80%;
+  }
+  .photodemoi {
+    width:80%;
+  }
+}
+
+.updateprofiletmdp
+{
+  width :700px;
+  margin-bottom: 20px;
+}
+
+@media (max-width:992px)
+{
+  .updateprofiletmdp .boutoncompte
+  {
+    width:100%;
+    display:block;
+    text-align: center;
+  }
+  .updateprofiletmdp
+  {
+    width:100%;
+  }
+}

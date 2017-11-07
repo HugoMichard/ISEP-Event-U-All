@@ -1,0 +1,346 @@
+/**
+ * App events : detail page
+ */
+
+div.app-events-detail {
+  font-size: 16px;
+}
+
+/**
+ * Main banner
+ */
+
+div.app-events-detail div.banner {
+  z-index: -60;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  min-height: 300px;
+  max-height: 500px;
+  overflow: hidden;
+}
+div.app-events-detail div.banner img {
+  width: 100%;
+  height: 100%;
+  min-height: 300px;
+  max-height: 500px;
+  object-fit: cover;
+}
+
+/**
+ * Event wrapper
+ */
+
+div.app-events-detail div.event-wrapper {
+  margin-top: 325px;
+  margin-right: -15px;
+  margin-left: -15px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+
+@media only screen and (max-width: 768px) {
+  div.app-events-detail div.event-wrapper {
+    margin-right: 0;
+    margin-left: 0;
+    padding: 0 15px;
+  }
+}
+div.app-events-detail div.event-wrapper:after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+div.app-events-detail div.event-wrapper section {
+  background: white;
+  border: 1px solid #EAEAEA;
+  margin: 15px 0;
+  padding: 15px;
+}
+div.app-events-detail div.event-wrapper section h2.title {
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+  color: #CC0033;
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #EAEAEA;
+}
+div.app-events-detail div.event-wrapper section h2.title .ajouter {
+  text-transform: none;
+  float: right;
+  display: block;
+  padding: 5px 10px;
+  margin-top: -5px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #CC0033;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: all 0.2s ease-in-out;
+}
+div.app-events-detail div.event-wrapper section h2.title .ajouter:hover {
+  background-color: #880000;
+  color: white;
+  border-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+}
+@media (max-width: 992px) {
+  div.app-events-detail div.event-wrapper section h2.title .ajouter {
+    float: none;
+    margin-top: 10px;
+  }
+}
+
+/**
+ * Left column
+ */
+
+div.app-events-detail div.event-wrapper div.event-main {
+  width: 66.66666667%;
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+
+@media only screen and (max-width: 768px) {
+  div.app-events-detail div.event-wrapper div.event-main {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+
+/**
+ * Details of the event
+ */
+
+div.app-events-detail div.event-wrapper div.event-main section.event-detail-infos:after {
+  display: table;
+  content: " ";
+  clear: both;
+}
+div.app-events-detail div.event-wrapper div.event-main section.event-detail-infos .poster {
+  width: 33.33333333%;
+  float: left;
+}
+div.app-events-detail div.event-wrapper div.event-main section.event-detail-infos .poster img {
+  width: 100%;
+}
+div.app-events-detail div.event-wrapper div.event-main section.event-detail-infos .details {
+  width: 66.66666667%;
+  padding: 0 15px;
+  float: left;
+}
+
+/* Extra small devices (phones, less than 768px) */
+
+@media only screen and (max-width: 768px) {
+  div.app-events-detail div.event-wrapper div.event-main section.event-detail-infos .poster {
+    width: 100%;
+  }
+  div.app-events-detail div.event-wrapper div.event-main section.event-detail-infos .details {
+    width: 100%;
+    padding: 0;
+  }
+}
+div.app-events-detail div.event-wrapper div.event-main section.event-detail-infos .details h2.nom {
+  color: #CC0033;
+  font-weight: normal;
+  font-size: 36px;
+  margin-top: 0px;
+  margin-bottom: 10px;
+}
+div.app-events-detail div.event-wrapper div.event-main section.event-detail-infos .details .fa-ul li {
+  margin-top: 5px;
+}
+div.app-events-detail div.event-wrapper div.event-main section.event-detail-infos .details .fa-ul li .fa-li {
+  color: #CC0033;
+}
+div.app-events-detail div.event-wrapper div.event-main section.event-detail-infos .details .description div.description-content {
+  text-align: justify;
+  overflow: hidden;
+  max-height: 150px;
+  position: relative;
+}
+div.app-events-detail div.event-wrapper div.event-main section.event-detail-infos .details .description div.description-content.visible {
+  max-height: 999999px;
+}
+div.app-events-detail div.event-wrapper div.event-main section.event-detail-infos .details .description div.description-content:after {
+  content: ' ';
+  display: block;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 40px;
+  background: linear-gradient(to top, rgba(255, 255, 255, 1.0), rgba(255, 255, 255, 0));
+}
+div.app-events-detail div.event-wrapper div.event-main section.event-detail-infos .details .description div.description-content.visible:after {
+  display: none;
+}
+div.app-events-detail div.event-wrapper div.event-main section.event-detail-infos .details .description div.description-content p:first-child {
+  margin-top: 0;
+}
+div.app-events-detail div.event-wrapper div.event-main section.event-detail-infos .details .description a.readmore {
+  display: none;
+  float: right;
+  margin-top: 10px;
+  padding: 5px 10px;
+  color: white;
+  background-color: #CC0033;
+  text-decoration: none;
+  border-radius: 3px;
+  transition: background 0.1s ease-in-out;
+}
+div.app-events-detail div.event-wrapper div.event-main section.event-detail-infos .details .description a.readmore:hover {
+  background-color: #880000;
+}
+
+/**
+ * Map
+ */
+
+div.app-events-detail div.event-wrapper div.event-main section.event-map img.map {
+  width: 100%;
+}
+div.app-events-detail div.event-wrapper div.event-main section.event-map div.adresse-container .fa {
+  position: absolute;
+  display: block;
+  font-size: 200%;
+  left: -30px;
+  color: #CC0033;
+}
+div.app-events-detail div.event-wrapper div.event-main section.event-map div.adresse-container {
+  margin: 15px 0;
+  margin-left: 40px;
+  position: relative;
+}
+
+/**
+ * Photo gallery
+ */
+
+div.app-events-detail div.event-wrapper div.event-main section.gallery::after {
+  content: ' ';
+  display: block;
+  clear: both;
+}
+
+/**
+ * Right column
+ */
+
+div.app-events-detail div.event-wrapper aside.event-column {
+  width: 33.33333333%;
+  float: left;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+/* Extra small devices (phones, less than 768px) */
+
+@media only screen and (max-width: 768px) {
+  div.app-events-detail div.event-wrapper aside.event-column {
+    width: 100%;
+    padding-right: 0;
+    padding-left: 0;
+  }
+}
+div.app-events-detail div.event-wrapper aside.event-column div.register, div.app-events-detail div.event-wrapper aside.event-column div.contact {
+  text-align: center;
+}
+div.app-events-detail div.event-wrapper aside.event-column div.register a.button, div.app-events-detail div.event-wrapper aside.event-column div.contact a.button {
+  display: inline-block;
+  margin: 10px 0;
+  padding: 10px 15px;
+  text-decoration: none;
+  color: #fff;
+  background-color: #CC0033;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: all ease-in-out 0.15s;
+}
+div.app-events-detail div.event-wrapper aside.event-column div.register a.button:hover, div.app-events-detail div.event-wrapper aside.event-column div.contact a.button:hover {
+  background-color: #880000;
+  border-color: rgba(0, 0, 0, 0.5);
+}
+div.app-events-detail div.event-wrapper aside.event-column div.register a.button.disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+div.app-events-detail div.event-wrapper aside.event-column div.register a.button.disabled:hover {
+  background-color: #CC0033;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+}
+div.app-events-detail div.event-wrapper aside.event-column div.register p {
+  text-align: justify;
+}
+div.app-events-detail div.event-wrapper aside.event-column .share-buttons {
+  text-align: center;
+}
+div.app-events-detail div.event-wrapper aside.event-column .share-buttons a {
+  display: inline-block;
+  width: 40px;
+  padding: 6px 0;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.42857143;
+  text-align: center;
+  white-space: nowrap;
+  vertical-align: middle;
+  cursor: pointer;
+  color: white;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  transition: all ease-in-out 0.15s;
+  text-decoration: none;
+}
+div.app-events-detail div.event-wrapper aside.event-column .share-buttons a:hover {
+  border-color: rgba(0, 0, 0, 0.5);
+}
+div.app-events-detail div.event-wrapper aside.event-column .share-buttons a.fa-twitter {
+  background-color: #55acee;
+}
+div.app-events-detail div.event-wrapper aside.event-column .share-buttons a.fa-twitter:hover {
+  background-color: #2f9bed;
+}
+div.app-events-detail div.event-wrapper aside.event-column .share-buttons a.fa-facebook {
+  background-color: #3b5998;
+}
+div.app-events-detail div.event-wrapper aside.event-column .share-buttons a.fa-facebook:hover {
+  background-color: #264b99;
+}
+div.app-events-detail div.event-wrapper aside.event-column .share-buttons a.fa-google-plus {
+  background-color: #dd4b39;
+}
+div.app-events-detail div.event-wrapper aside.event-column .share-buttons a.fa-google-plus:hover {
+  background-color: #de3721;
+}
+div.app-events-detail div.event-wrapper aside.event-column .rating {
+  width: 250px;
+  margin: 10px auto 0;
+  font-size: 40px;
+  overflow: hidden;
+}
+div.app-events-detail div.event-wrapper aside.event-column .rating a {
+  width: 40px;
+  margin: 0 5px;
+  float: right;
+  color: #aaa;
+  text-decoration: none;
+  -webkit-transition: color .4s ease-in-out;
+  -moz-transition: color .4s ease-in-out;
+  -o-transition: color .4s ease-in-out;
+  transition: color .4s ease-in-out;
+}
+div.app-events-detail div.event-wrapper aside.event-column .rating a:hover,
+div.app-events-detail div.event-wrapper aside.event-column .rating a:hover ~ a,
+div.app-events-detail div.event-wrapper aside.event-column .rating a:focus,
+div.app-events-detail div.event-wrapper aside.event-column .rating a:focus ~ a {
+  color: #CC0033;
+  cursor: pointer;
+}
